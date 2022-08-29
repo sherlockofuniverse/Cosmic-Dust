@@ -272,7 +272,7 @@ plt.plot(temp, SNR_aperture_mass_array, color='green', marker='x')
 plt.title('Dust mass versus Temperature', fontsize=14)
 plt.xlabel('Temperature (K)', fontsize=14)
 plt.ylabel('Dust Mass (M☉)', fontsize=14)
-plt.legend(['SNR Mass with subtracted background', 'SNR Mass'])
+plt.legend(['SNR Mass with subtracted background', 'SNR Mass'], loc='upper center', bbox_to_anchor=(0.5, -0.2), fancybox=True, shadow=True, ncol=5)
 plt.grid(True)
 plt.show()
 
